@@ -53,13 +53,21 @@ h1, h2, h3, h4, h5, button {
     border-radius: 5px;
 }
 
+
+/*----------BLOG MAIN CONTAINER WIDTH----------*/
+
+.main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
 /*----------BLOG TITLE----------*/
 
 .top-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .top-box i {
@@ -79,11 +87,11 @@ h1, h2, h3, h4, h5, button {
     color: #fff;
 }
 
+
 /*----------BLOG CONTENT----------*/
 
 .blog-content {
-    width: 90%;
-    margin: 0 auto;
+    min-width: 800px;
 }
 
 /*......MENU*/
@@ -142,6 +150,7 @@ h1, h2, h3, h4, h5, button {
 
 .article {
     width: 55vw;
+    min-width: 600px;
 }
 
 .right-bar {
