@@ -118,6 +118,11 @@ h1, h2, h3, h4, h5, button {
     outline: none;
 }
 
+::placeholder {
+    color: var(--gray-color-light);
+    opacity: 0.7;
+}
+
 .search-bar {
     padding: 3px;
     border-bottom: 2px solid var(--purple-color);
